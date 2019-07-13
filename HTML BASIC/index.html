@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Cách 1:-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Cách 2:-->
+        <style>
+            h2{
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <h1 class="content-text-center"> Đây là thẻ h1</h1>
+        <h2 class="content-text-center"> Đây là thẻ h2</h2>
+        <h3> Đây là thẻ h3</h3>
+        <h4> Đây là thẻ h4</h4>
+        <h5> Đây là thẻ h5</h5>
+        <h6 class="content-text-right"> Đây là thẻ h6</h6>
+
+        <!--Cặp thẻ thể hiện nội dung văn bản-->
+        <p class="content-text"> Cặp thẻ hiện thị nội dung.</p>
+        <span class="content-text"> Cặp thẻ hiển thị nội dung(span)</span>
+        <trong>In đậm </trong>
+        <i>In nghiêng</i>
+        <u>Gạch chân</u>
+
+        <!--Các cặp thẻ về liên kết-->
+        <a href="http:dantri.com">click here </a>
+        <!--các cặp thẻ về số thứ tự-->
+
+        <ul>
+            <li>Việt Nam</li>
+            <li>Lào</li>
+            <li>Campuchia</li>
+        </ul>
+        <ol>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+        </ol>
+
+        <!--Các cặp thẻ html 5-->
+        <head>Hiển thị vùng không gian của đầu trang web</head>
+        <nav>Hiển thị vùng không gian của menu</nav>
+        <main>
+            <section>
+                <aside>
+                    Một vung không gian riêng biệt.
+                </aside>
+                <article>
+
+                </article>
+            </section>
+        </main>
+        <footer>Hiển thi vung không gian cuối của trang</footer>
+        <img src="images/download.jpg" height=" 200px" width="400px">
+        <br/>
+        <!--Các cặp thẻ form-->
+        <form action="" method="GET">
+            <input type="text" name="txtName" />
+            <input type="password" name="txtpassword" />
+            <input type="radio" name="rdbGioitinh" checked value="Nam" /> Nam
+            <input type="radio" name="rdbGioitinh" value="Nu" /> Nữ
+
+            <input type="checkbox" name="ckbAge" checked /> Đã 18 tuổi
+            <input type="checkbox" name="isStudent" /> Là Sinh Viên
+
+            <input type="submit" name="btnSubmit" />
+            <input type="reset" name="btnReset" />
+
+            <textarea placeholder="input here" cols="50" rows="10"></textarea>
+            <select multiple>
+                <option>Hà Nội</option>
+                <option>Thái Nguyên</option>
+                <option selected>Cao Bằng</option>
+                <option>Bắc Cạn</option>
+            </select>
+            <br/>
+            <br/>
+            <label>Nhâp số: </label>
+            <input type="number" name="txtNumber">
+        </form>
+
+        <br/>
+        <table border="1px">
+            <tr>
+                <td>Dòng 1 cột 1</td>
+                <td>Dòng 1 cột 2</td>
+            </tr>
+            <tr>
+                <td>Dòng 2 cột 1</td>
+                <td>Dòng 2 cột 2</td>
+            </tr>
+        </table>
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="content">
+            <div id="content-right"></div>
+            <div id="content-left"></div>
+            <div id="main-content"></div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

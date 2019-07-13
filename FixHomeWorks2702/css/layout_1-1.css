@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: gray;
+    height: 600px;
+    margin: 0px 50px;
+}
+.content-left{
+    width: 20%;
+    background-color: gray;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.content-main{
+    width: 70%;
+    height: 600px;
+    float: left;
+    background-color: white;
+    padding: 20px;
+}

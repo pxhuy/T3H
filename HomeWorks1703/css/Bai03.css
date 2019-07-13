@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+.header{
+    height: 100px;
+    border: 1px solid gray;
+    margin: 0px;
+}
+.header-left{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.logo{
+    background-color: #8C898B;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+.logo a{
+    display:block;
+    padding-top: 15px;
+}
+.logo-bottom{
+    padding: 10px 30px;
+}
+.header-right{
+    float:right;
+    width: 50%;
+    height: 100px;
+}
+.content{
+    float: right;
+    padding: 10px 30px 0px 0px;
+}
+.buttons{
+    padding-right: 10px;
+}
+.buttons button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #8C898B;
+    float: right;
+
+}
+.buttons::after{
+    clear: both;
+    content: "";
+    display:table;
+}
+.link{
+    padding-top: 30px;
+}
+.link ul{
+    list-style-type: none;
+}
+.link ul li{
+    float: left;
+    padding: 0px 10px;   
+    border-right: 1px solid blue;
+}
+.link ul li a{
+    text-decoration: none;
+}
+.link ul li:last-child{
+    border-right: 0px;
+}
+.header::after{
+    clear: both;
+    content: "";
+    display:table;
+}
+.menubar{
+    height: 50px;
+    background-color: #8C898B;
+    color: white
+}
+.menu ul{
+    list-style-type: none;
+    padding-top: 15px;
+}
+.menu ul li{
+    float: left;
+    padding: 0px 10px;   
+    border-right: 1px solid white;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li:last-child{
+    border-right: 0px;
+}
+.menubar::after{
+    clear: both;
+    content: "";
+    display:table;
+}
+.main-content{
+    margin: 20px 10px;
+}
+.content-left{
+    float: left;
+    width: 60%;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.content-item-header{
+    font-size: 18px;
+    color: #A3A2A3;
+}
+.content-left-top-image{
+    width: 50%;
+    float: left;
+}
+.content-left-top-image p{
+    text-align: center;
+    color: white;
+    padding-top:  70px;
+    padding-right: 20px;
+    height: 150px;
+    background-color: #8C898B;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: auto;
+    width: 80%;
+}
+.content-left-top-text{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.content-left-top-text::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.content-left-top-image::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.content-left-top-images{
+    clear: both;
+}
+.content-left-top-images ul{
+    list-style-type: none;
+    background-color: #F9F8F8;
+    height: 80px;
+    width: 100%;
+}
+.content-left-top-images ul li{
+    height: 50px;
+    width: 14%;
+    background-color: #8C898B;
+    float: left;
+    margin-right:12px;
+    margin-top: 20px;
+    display:block;
+    border-radius: 5px;
+}
+.content-left-bottom{
+    margin-top: 20px;
+}
+.news{
+    padding: 20px 0px;
+    border-bottom: 1px dotted #8C898B;
+}
+.news-time{
+    margin-bottom: 10px;
+}
+.news-text{
+    color: blue;
+}
+.news:last-child{
+    border-bottom: 0px;
+}
+.bannercontact{
+    height: 60px;
+    background-color: #8C898B;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.content-right{
+    float: right;
+    width: 40%;
+    padding-left: 20px;
+}
+.content-link{
+    padding-left: 20px;
+}
+.content-link ul li{
+    padding-top: 5px;
+}
+.content-link ul li a{
+    text-decoration: none;
+}
+.content-right-2{
+    margin-top: 30px;
+}
+.content-right-2-banner{
+    height: 100px;
+    width: 100%;
+    background-color: #8C898B;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.content-right-2-banner p{
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+.footer{
+    clear: both;
+    height: 100px;
+    border-top: 1px solid #8C898B;
+    margin-top: 50px;
+    padding: 10px 10px;
+}
+.footer-left{
+    float: left;
+    width: 50%
+}
+.footer-right{
+    float: right;
+    width: 50%;
+}
+.footer-right-link{
+    float: right;
+    width: 100%;
+}
+.footer-right p{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}

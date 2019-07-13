@@ -1,0 +1,14 @@
+.row{
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    width: 25%;
+}
+li::after{
+    clear: both;
+}

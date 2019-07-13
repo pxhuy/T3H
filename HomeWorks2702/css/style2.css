@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    height: 50px;
+    padding: 15px 0px 0px 10px;
+}
+
+#login{
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+#content-portfolio{
+    text-align: center;
+    height: 200px;
+    background-color: aliceblue;
+}
+.content
+{
+    margin: 30px;
+}
+.content-float{
+    float: left;
+}
+#footer{
+    clear: both;
+    background-color: rgb(174, 174, 175);
+    height: 50px;
+    padding: 15px 0px 0px 10px;
+}
+.some-text{
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+}

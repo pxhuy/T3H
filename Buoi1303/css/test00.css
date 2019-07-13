@@ -1,0 +1,29 @@
+.header-content-left{
+    float: left;
+    height:20%;
+    position: relative;
+}
+.header-content-left p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+.header-content-left img{
+    width: 500px;
+    height: 500px;
+}
+
+.clear-fix::after{
+    clear: both;
+    content: "";
+    display: table;   
+}
+.header-content-right{
+    float: right;
+}
+.header-content-right img{
+    width: 250px;
+    height: 250px;
+}

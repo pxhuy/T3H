@@ -1,0 +1,12 @@
+.jumbotron{
+    border-radius: 5px;
+}
+.content{
+    margin-top: 20px;
+}
+.card-body{
+    border: 0px !important;
+}
+.card-deck{
+    margin-top: 20px;
+}

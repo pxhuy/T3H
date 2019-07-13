@@ -1,0 +1,37 @@
+ body{
+     background-image: url(../images/backgound.jpg);
+ }
+
+.navbar{
+    background: rgba(41, 43, 44, 0.4) !important;
+}
+.navbar i{
+    padding-right: 15px;
+}
+
+.row h1{
+    padding: 50px 0px 20px 0px;
+    border-bottom: 1px solid white;
+   
+}
+.list-group{
+    padding-top: 50px;
+}
+.card{
+    margin-top: 50px;
+}
+.fa{
+    font-size: 1.75rem;
+}
+div.md-form{
+    padding-bottom: 70px;
+}
+.form-control{
+    border: 0px;
+    border-bottom: 1px solid rgb(185, 181, 181);
+    border-radius: 0px;
+}
+.text-align{
+    text-align: center;
+    padding-top: 20px;
+}

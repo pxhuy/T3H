@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 20px auto;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    margin: 0px 50px;
+    color:  rgb(231, 231, 230);
+    position: relative;
+}
+.header-left{
+    position: absolute ;
+    width: 50%;
+}
+.header-left a{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    display: block;
+    color: rgb(231, 231, 230);
+}
+.header-left a:hover{
+    color: whitesmoke;
+}
+.header-right{
+    float: right;
+    margin-top: 15px;
+    margin-right: 70px;
+}
+.header-right ul{
+    list-style-type: none;
+}
+.header-right ul li{
+    float: left;
+}
+.header-right a{
+    text-decoration: none;
+    display: block;
+    color: rgb(231, 231, 230);
+    margin-right: 20px;
+}
+.header-right a:hover{
+    color: whitesmoke;
+}

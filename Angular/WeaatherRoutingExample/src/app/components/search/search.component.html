@@ -1,0 +1,38 @@
+<section id="header" class="row-12">
+ <form class="form-inline">
+
+    <input type="text" class="form-control" name="citySearch" placeholder="Nhập vào tên thành phố" />
+
+    <input type="submit" class="btn btn-primary" value="Tìm kiếm" (click)="onSearch()" />
+ </form>
+
+ <br>
+ <!--Phần hiển thị kết quả truy vấn-->
+ <div class="row">
+  <!--các card hiển thị chi tiết kết quả-->
+ <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">City Name</h5>
+        <p class="card-text">{{weather.city}}</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Coord</h5>
+        <p class="card-text">{{weather.coord.lat}} - {{weather.coord.lon}}</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">{{weather.weather}}</p>
+      </div>
+    </div>
+
+
+ </div>
+
+
+</section>

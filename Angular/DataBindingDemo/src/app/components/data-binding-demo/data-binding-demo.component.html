@@ -1,0 +1,19 @@
+<p>{{message}} {{count}}</p>
+<select >
+ <option *ngFor="let item of arr" value={{item.key}}>{{item.name}}</option>
+</select>
+One-way data binding
+<br>
+<input type='number' value='{{count}}'>
+<br>
+<input type='number' value= 'count'>
+<br>
+<br>
+Two-way data-binding
+<br>
+<br>
+
+<input type='number' [(ngModel)] = 'count'>
+<input type='submit' value='++' (click)="Increament()">
+<br>
+<input type='submit' value='Add Option' (click)="IncreaArr()">

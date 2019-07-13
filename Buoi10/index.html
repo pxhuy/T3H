@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hôm là thứ 6</h1>
+            <div id="content">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ullam perspiciatis id eveniet blanditiis
+                 quam enim perferendis quaerat a doloribus, ad, fugiat impedit asperiores aliquam, aperiam itaque
+                Explicabo, provident cum!</p>
+                <h2>
+                    Đây là thẻ h2
+                </h2>
+                <p class="text" name = "para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio pariatur aliquam architecto voluptatum 
+                    quae delectus aut ad laborum sit magni voluptas tempore repudiandae sint, obcaecati nobis earum quaerat,
+                    nihil est!
+                </p>
+            </div>
+
+            <input type="text" on="showValue()" id="input">
+            <span id="showValue"></span>
+            
+            <button onclick="addNote()">add node h2</button>
+            <button onclick="deleteNote()">Delete node</button>
+            <button onclick="changeStyle()">Change style</button>
+        </div>
+
+        
+        <script>
+            function addNote(){
+                var h2 = document.createElement("h2");
+                h2.innerHTML = "thêm note thành công"
+                console.log(h2);
+                var content = document.getElementById("content");
+                console.log(content);
+                content.appendChild(h2);
+            }
+            //p.addEventListner("click",function())
+
+            function deleteNote(){
+                var node = document.getElementsByName('para')[0];
+                var content = document.getElementById("content");
+                console.log(node);
+                content.removeChild(node);
+            }
+            function changeStyle(){
+                var p = document.getElementsByClassName("text");
+                p[0].style.fontSize = '30px';
+                p[1].style.color = 'red';
+            }
+            function showValue(){
+                var input = document.getElementById("input");
+                document.getElementById('showValue').innerHTML = input.value;
+            }
+        </script>
+    </body>
+</html>

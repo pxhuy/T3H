@@ -1,0 +1,8 @@
+This is content form parent component:
+<br>
+<input #parentMessage type="text" placeholder="Message from parent" (keyup)= "0">
+<br>
+<app-child [message]="parentMessage.value"
+(childOutput)="childOutput=$event"></app-child>
+ <br>
+ {{childOutput}}

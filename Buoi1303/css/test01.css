@@ -1,0 +1,22 @@
+.content-left{
+    width: 60%;
+    height: 700px;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.content-left-left{
+    width: 50%;
+    height: 700px;
+    background-color: yellow;
+}
+.content-right{
+    width: 40%;
+    height: 700px;
+    background-color: blue;
+    float: right;
+}
+.content-right-bottom{
+    height: 350px;
+    background-color: blueviolet;
+}
